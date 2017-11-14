@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## 봇 설명!
 
-You can use the [editor on GitHub](https://github.com/Castar/kbotHelp/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+이 봇은 노래방을 디스코드에 제공하는 봇입니다. 사용 방법은 다음과 같습니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 명령어
 
-### Markdown
+**/kplay [번호]**: 노래를 플레이합니다.
+**/ksetting [설정]**: 봇 설정.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 설정 안내
 
-```markdown
-Syntax highlighted code block
+**/ksetting lang english**를 사용하면, 영어로 봇을 사용할 수 있습니다.
+그리고 이 봇은 일본어를 지원합니다. 일본어 노래의 경우, 한글, 영어, 일본어 표시를 선택할 수 있습니다.
 
-# Header 1
-## Header 2
-### Header 3
+한국어를 활성화하려면, **/ksetting japansong korean true**를 사용하세요. 반대로 비활성화하려면, **/ksetting japansong korean false**를 사용하면 됩니다.
 
-- Bulleted
-- List
+영어를 활성화하려면, **/ksetting japansong english true**를 사용하세요. 반대로 비활성화하려면, **/ksetting japansong english false**를 사용하면 됩니다.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Castar/kbotHelp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+일본어를 활성화하려면, **/ksetting japansong japanese true**를 사용하세요. 반대로 비활성화하려면, **/ksetting japansong japanese false**를 사용하면 됩니다.
